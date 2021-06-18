@@ -16,6 +16,7 @@
 		347F145C2674C6430022C24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347F145A2674C6430022C24A /* LaunchScreen.storyboard */; };
 		347F14672674C6440022C24A /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F14662674C6440022C24A /* SimpsonBookTests.swift */; };
 		347F14722674C6440022C24A /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F14712674C6440022C24A /* SimpsonBookUITests.swift */; };
+		347F1480267CEAB20022C24A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F147F267CEAB20022C24A /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		347F146D2674C6440022C24A /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347F14712674C6440022C24A /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		347F14732674C6440022C24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347F147F267CEAB20022C24A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				347F145A2674C6430022C24A /* LaunchScreen.storyboard */,
 				347F145D2674C6430022C24A /* Info.plist */,
 				347F14552674C6420022C24A /* SimpsonBook.xcdatamodeld */,
+				347F147F267CEAB20022C24A /* DetailsVC.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				347F14512674C6420022C24A /* ViewController.swift in Sources */,
 				347F144D2674C6420022C24A /* AppDelegate.swift in Sources */,
 				347F144F2674C6420022C24A /* SceneDelegate.swift in Sources */,
+				347F1480267CEAB20022C24A /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
