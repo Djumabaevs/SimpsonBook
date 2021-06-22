@@ -17,6 +17,7 @@
 		347F14672674C6440022C24A /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F14662674C6440022C24A /* SimpsonBookTests.swift */; };
 		347F14722674C6440022C24A /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F14712674C6440022C24A /* SimpsonBookUITests.swift */; };
 		347F1480267CEAB20022C24A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F147F267CEAB20022C24A /* DetailsVC.swift */; };
+		347F1482267CF4DD0022C24A /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F1481267CF4DD0022C24A /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		347F14712674C6440022C24A /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		347F14732674C6440022C24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		347F147F267CEAB20022C24A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		347F1481267CF4DD0022C24A /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				347F144C2674C6420022C24A /* AppDelegate.swift */,
 				347F144E2674C6420022C24A /* SceneDelegate.swift */,
 				347F14502674C6420022C24A /* ViewController.swift */,
+				347F1481267CF4DD0022C24A /* Simpson.swift */,
 				347F14522674C6420022C24A /* Main.storyboard */,
 				347F14582674C6430022C24A /* Assets.xcassets */,
 				347F145A2674C6430022C24A /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				347F144D2674C6420022C24A /* AppDelegate.swift in Sources */,
 				347F144F2674C6420022C24A /* SceneDelegate.swift in Sources */,
 				347F1480267CEAB20022C24A /* DetailsVC.swift in Sources */,
+				347F1482267CF4DD0022C24A /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
