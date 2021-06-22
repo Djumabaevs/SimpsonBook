@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     
     var mySimpsons = [Simpson]()
+    var chosenSimpson : Simpson?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,12 +52,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var chosenSimpson = mySimpsons[indexPath.row]
+        chosenSimpson = mySimpsons[indexPath.row]
         self.performSegue(withIdentifier: "toDetailsVC", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if segue.identifier == "toDetailsVC" {
+            let destinationVC = segue.destination as! DetailsVC
+            destinationVC.selectedSimpson = chosenSimpson
+        }
     }
     
 
