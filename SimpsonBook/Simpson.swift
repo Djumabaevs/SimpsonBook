@@ -14,10 +14,11 @@ class Simpson {
     var job : String
     var image : UIImage
     
-    init(simsponName: String, simpsonJob: String, simpsonImage: UIImage) {
-        name = simsponName
+    init(simpsonName: String, simpsonJob:String,simpsonImage:UIImage) {
+        
+        name = simpsonName
         job = simpsonJob
         image = simpsonImage
+        
     }
-    
 }

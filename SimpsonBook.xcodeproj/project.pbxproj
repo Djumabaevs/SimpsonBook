@@ -18,6 +18,7 @@
 		347F14722674C6440022C24A /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F14712674C6440022C24A /* SimpsonBookUITests.swift */; };
 		347F1480267CEAB20022C24A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F147F267CEAB20022C24A /* DetailsVC.swift */; };
 		347F1482267CF4DD0022C24A /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F1481267CF4DD0022C24A /* Simpson.swift */; };
+		347F14842682689B0022C24A /* bart2.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F14832682689B0022C24A /* bart2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		347F14732674C6440022C24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		347F147F267CEAB20022C24A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		347F1481267CF4DD0022C24A /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
+		347F14832682689B0022C24A /* bart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bart2.png; path = ../../../../Downloads/bart2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				347F14502674C6420022C24A /* ViewController.swift */,
 				347F1481267CF4DD0022C24A /* Simpson.swift */,
 				347F14522674C6420022C24A /* Main.storyboard */,
+				347F14832682689B0022C24A /* bart2.png */,
 				347F14582674C6430022C24A /* Assets.xcassets */,
 				347F145A2674C6430022C24A /* LaunchScreen.storyboard */,
 				347F145D2674C6430022C24A /* Info.plist */,
@@ -243,6 +246,7 @@
 				347F145C2674C6430022C24A /* LaunchScreen.storyboard in Resources */,
 				347F14592674C6430022C24A /* Assets.xcassets in Resources */,
 				347F14542674C6420022C24A /* Main.storyboard in Resources */,
+				347F14842682689B0022C24A /* bart2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

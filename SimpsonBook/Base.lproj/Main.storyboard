@@ -48,9 +48,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HaC-Se-M5A">
-                                <rect key="frame" x="45" y="154" width="316" height="333"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5X-ZK-m77">
                                 <rect key="frame" x="103" y="523" width="201" height="90"/>
                                 <constraints>
@@ -69,24 +66,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61h-yc-Xlb">
+                                <rect key="frame" x="42" y="168" width="288" height="250"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qga-gy-Oiq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="m5X-ZK-m77" firstAttribute="top" secondItem="HaC-Se-M5A" secondAttribute="bottom" constant="36" id="3fb-13-Ayc"/>
-                            <constraint firstItem="HaC-Se-M5A" firstAttribute="top" secondItem="qga-gy-Oiq" secondAttribute="top" constant="66" id="9nv-Uy-ZJV"/>
-                            <constraint firstItem="HaC-Se-M5A" firstAttribute="centerX" secondItem="m5X-ZK-m77" secondAttribute="centerX" id="AcI-re-tAN"/>
+                            <constraint firstItem="qga-gy-Oiq" firstAttribute="trailing" secondItem="61h-yc-Xlb" secondAttribute="trailing" constant="62" id="AJk-VO-P8B"/>
+                            <constraint firstItem="61h-yc-Xlb" firstAttribute="top" secondItem="qga-gy-Oiq" secondAttribute="top" constant="102" id="AKT-f0-ii7"/>
                             <constraint firstItem="qga-gy-Oiq" firstAttribute="bottom" secondItem="gda-wX-JJj" secondAttribute="bottom" constant="141" id="MsF-Mq-kd2"/>
                             <constraint firstItem="m5X-ZK-m77" firstAttribute="leading" secondItem="gda-wX-JJj" secondAttribute="leading" id="TPA-NX-1vb"/>
                             <constraint firstItem="m5X-ZK-m77" firstAttribute="leading" secondItem="qga-gy-Oiq" secondAttribute="leading" constant="103" id="ViM-7J-PFH"/>
                             <constraint firstItem="m5X-ZK-m77" firstAttribute="trailing" secondItem="gda-wX-JJj" secondAttribute="trailing" id="a5Q-Ks-rFd"/>
-                            <constraint firstItem="HaC-Se-M5A" firstAttribute="leading" secondItem="qga-gy-Oiq" secondAttribute="leading" constant="45" id="p4p-dQ-I0e"/>
-                            <constraint firstItem="qga-gy-Oiq" firstAttribute="trailing" secondItem="HaC-Se-M5A" secondAttribute="trailing" constant="53" id="v4X-7p-SbX"/>
+                            <constraint firstItem="61h-yc-Xlb" firstAttribute="leading" secondItem="qga-gy-Oiq" secondAttribute="leading" constant="64" id="fE3-2J-46Y"/>
+                            <constraint firstItem="m5X-ZK-m77" firstAttribute="top" secondItem="61h-yc-Xlb" secondAttribute="bottom" constant="83" id="kEC-w3-Xbu"/>
                             <constraint firstItem="gda-wX-JJj" firstAttribute="top" secondItem="m5X-ZK-m77" secondAttribute="bottom" constant="18" id="vuE-3h-MJh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="89D-3K-3DH"/>
                     <connections>
+                        <outlet property="imageView" destination="61h-yc-Xlb" id="gZz-KU-GSb"/>
                         <outlet property="jobLabel" destination="gda-wX-JJj" id="dId-jF-OCF"/>
                         <outlet property="nameLabel" destination="m5X-ZK-m77" id="qi2-OG-HkF"/>
                     </connections>
