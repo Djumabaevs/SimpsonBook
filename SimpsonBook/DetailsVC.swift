@@ -21,9 +21,12 @@ class DetailsVC: UIViewController {
         super.viewDidLoad()
         
         nameLabel.text = selectedSimpson?.name
+        jobLabel.text = selectedSimpson?.job
+        imageView.image = selectedSimpson?.image
 
        
     }
+    
     
 
 
